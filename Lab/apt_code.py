@@ -91,4 +91,4 @@ def create_apt_table(apt_code):
 
 
 if __name__ == "__main__" :
-	create_apt_table("A111112")
+	create_apt_table("Atest")
