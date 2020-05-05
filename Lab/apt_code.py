@@ -12,7 +12,6 @@ def create_apt_table(apt_code):
 	
 	sql = '''
             CREATE TABLE {0} (
-		num int(100) NOT NULL AUTO_INCREMENT,
 		date varchar(100) NOT NULL,
 		공용관리비 int(100),
 		일반관리비 int(100),
@@ -31,7 +30,6 @@ def create_apt_table(apt_code):
 		도서인쇄비 int(100),
 		여비교통비 int(100),
 		제세공과금 int(100),
-		공과금중_전기료 int(100),
 		통신료 int(100),
 		우편료 int(100),
 		제세공과금_등 int(100),
@@ -81,8 +79,7 @@ def create_apt_table(apt_code):
 		장기수선충당금_월부가액 int(100),
 		월사용액 int(100),
 		충당금잔액 int(100),
-		적립요율 int(100),
-		primary key(num)
+		적립요율 int(100)
             );
         '''.format(apt_code)
 
