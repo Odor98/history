@@ -1,0 +1,16 @@
+{
+	"device_id" : "humidity_%s",
+	"time_numeric" : %d,
+	"src" : "%s",
+	"dst" : "%s",
+	"data": {
+		"item" : "humidity",
+		"external_value" : %s,
+		"inner_value" : %s,
+		"range" : {
+			"min" : 0,
+			"max" : 100
+		},		
+		"state" : "normal"
+	}	
+}

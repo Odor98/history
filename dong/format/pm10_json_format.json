@@ -1,0 +1,15 @@
+{
+	"device_id" : "pm10_%s",
+	"time_numeric" : %d,
+	"src" : "%s",
+	"dst" : "%s",
+	"data": {
+		"item" : "pm10",
+		"external_value" : %d,
+		"range" : {
+			"min" : 0,
+			"max" : 500
+		},		
+		"state" : "normal"
+	}	
+}

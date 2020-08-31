@@ -1,0 +1,16 @@
+{
+	"device_id" : "temperature_%s",
+	"time_numeric" : %d,
+	"src" : "%s",
+	"dst" : "%s",
+	"data": {
+		"item" : "temperature",
+		"external_value" : %s,
+		"inner_value" : %s,
+		"range" : {
+			"min" : 0,
+			"max" : 50
+		},		
+		"state" : "normal"
+	}	
+}
